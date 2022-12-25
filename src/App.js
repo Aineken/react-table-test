@@ -1,10 +1,10 @@
 import "./App.css";
 // import ColumnHiding from "./components/ColumnHiding";
-import StickyTable from "./components/StickyTable";
+// import StickyTable from "./components/StickyTable";
 // import ColumnOrder from "./components/ColumnOrder";
 // import RowSelection from "./components/RowSelection";
 // import FilteringTable from "./components/FilteringTable";
-// import PaginationTable from "./components/PaginationTable";
+import PaginationTable from "./components/PaginationTable";
 // import BasicTable from "./components/BasicTable";
 // import SortingTable from "./components/SortingTable";
 
@@ -14,11 +14,11 @@ function App() {
       {/* <BasicTable /> */}
       {/* <SortingTable /> */}
       {/* <FilteringTable /> */}
-      {/* <PaginationTable /> */}
+      <PaginationTable />
       {/* <RowSelection /> */}
       {/* <ColumnOrder /> */}
       {/* <ColumnHiding /> */}
-      <StickyTable />
+      {/* <StickyTable /> */}
     </>
   );
 }

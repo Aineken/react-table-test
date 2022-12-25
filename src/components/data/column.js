@@ -2,15 +2,26 @@ import { format } from "date-fns";
 
 export const COLUMNS = [
   {
-    Header: "ID",
-    Footer: "ID",
-    accessor: "id",
+    Header: "#",
+    Footer: "#",
+    accessor: "",
     disableFilters: true,
-    // Cell: ({ index }) => {
-    //   return <div>{index + 1}</div>;
-    // },
+    disableSortBy: true,
+    Cell: (row) => {
+      return <div>{row.row.index + 1}</div>;
+    },
     sticky: "left",
   },
+  // {
+  //   Header: "ID",
+  //   Footer: "ID",
+  //   accessor: "id",
+  //   disableFilters: true,
+  //   // Cell: ({ index }) => {
+  //   //   return <div>{index + 1}</div>;
+  //   // },
+  //   sticky: "left",
+  // },
   {
     Header: "First Name",
     Footer: "First Name",
