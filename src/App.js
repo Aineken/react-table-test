@@ -1,5 +1,6 @@
 import "./App.css";
-import ColumnHiding from "./components/ColumnHiding";
+// import ColumnHiding from "./components/ColumnHiding";
+import StickyTable from "./components/StickyTable";
 // import ColumnOrder from "./components/ColumnOrder";
 // import RowSelection from "./components/RowSelection";
 // import FilteringTable from "./components/FilteringTable";
@@ -16,7 +17,8 @@ function App() {
       {/* <PaginationTable /> */}
       {/* <RowSelection /> */}
       {/* <ColumnOrder /> */}
-      <ColumnHiding />
+      {/* <ColumnHiding /> */}
+      <StickyTable />
     </>
   );
 }

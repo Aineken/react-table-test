@@ -9,11 +9,13 @@ export const COLUMNS = [
     // Cell: ({ index }) => {
     //   return <div>{index + 1}</div>;
     // },
+    sticky: "left",
   },
   {
     Header: "First Name",
     Footer: "First Name",
     accessor: "first_name",
+    sticky: "left",
   },
   {
     Header: "Last Name",
